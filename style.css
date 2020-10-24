@@ -98,6 +98,7 @@ body{
     border-radius: 7px;
 }
 .intrologin{
+    margin-bottom: 20px;
     align-items: center;
     justify-content: space-around;
     padding: 8px 16px;
@@ -122,5 +123,88 @@ body{
     color: #fff;
 }
 .bestsong{
-    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
+.bestsong .song{
+   display: flex;
+   flex-direction: column;
+}
+.bestsong .song img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+ }
+ .bestsong .song span{
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 150%;
+ }
+ .top{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 20px;
+     grid-auto-rows: minmax(100px, auto);
+ }
+ .top .chart{
+     height: 60px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     border-radius: 5px;
+    background-color: #fdd100;
+ }
+ .topsinger{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 15px;
+ }
+ .topsinger .singer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url(./img/spoiline.jpg);
+ }
+ .topsinger .singer .image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.name p{
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background: rgb(247,143,245);
+    background: linear-gradient(90deg, rgba(247,143,245,0.4881302862942052) 0%, rgba(112,41,171,1) 49%, rgba(191,46,174,0.8018557764902836) 100%);
+}
+.top100{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 15px;
+}
+.topp img{
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 7px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+ 
